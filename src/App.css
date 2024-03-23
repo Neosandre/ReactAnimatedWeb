@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville&display=swap');
+
+body{
+    font-family: "Jost", sans-serif;
+}
+
+.logo{
+    width: 46px;
+    height: 46px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+nav{
+    z-index: 10001 !important;
+}
+
+.gradiantBg{
+    background: linear-gradient(99deg,#EE9AE5 0%, #5961F9 100%);
+}
+
+.btnPrimary{
+    @apply py-2 px-8 bg-secondary font-semibold text-white rounded 
+    hover:bg-primary transition-all duration-300;
+}
+
+
